@@ -46,5 +46,10 @@ So we have a total of 5 routes
 
 ## Examples of API tests with postman (in pictures)
 
-https://postimg.cc/gallery/8MRv0wk
+* Add Player
+
+<img src="https://sydcodeur.com/sydcodeur-images/add-player.PNG">
+
+* List of players
+<img src="https://sydcodeur.com/sydcodeur-images/list-of-players.PNG">
 
