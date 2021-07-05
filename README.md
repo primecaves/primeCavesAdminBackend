@@ -44,5 +44,7 @@ So we have a total of 5 routes
 * I delete player image if this image was replaced during the update (or if the player was deleted)
 * In the utils/syd-functions.js folder you will find reusable functions in the controllers/player.js
 
+## Examples of API tests with postman (in pictures)
+
 https://postimg.cc/gallery/8MRv0wk
 
