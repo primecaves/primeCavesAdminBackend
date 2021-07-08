@@ -21,7 +21,11 @@ Clone the repository then run **npm install**
 
 You can install mongodb locally or use Mongo Atlas (online). In both cases, go to the **app.js** file then replace the url **mongodb://localhost:27017/player-db** with your url. In my case I use Mongo DB locally. It is therefore available on port **27017**(by default) and the name of my database is **player-db**.
 
-## Step 3: Test the API endpoints
+## Step 3: Launch your project
+
+To start your project, just type the following command : **node app.js**. Your API will therefore run on port 3000
+
+## Step 4: Test the API endpoints
 
 This is an API that manages players (football for example). A player is characterized by:
 * name: the name of the player
