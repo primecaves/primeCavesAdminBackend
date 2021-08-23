@@ -51,6 +51,7 @@ So we have a total of 5 routes
 ## Examples of API tests with postman (in pictures)
 
 * Add Player
+![Kiku](images/postman-test/add-player.png)
 
 <img src="https://sydcodeur.com/sydcodeur-images/add-player.PNG">
 
