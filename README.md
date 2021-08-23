@@ -55,5 +55,5 @@ So we have a total of 5 routes
 <img src="https://i.ibb.co/TqTVxsn/add-player.png" alt="add-player" border="0">
 
 * List of players
-<img src="https://sydcodeur.com/sydcodeur-images/list-of-players.PNG">
+<img src="https://i.ibb.co/RSgvjLt/list-of-players.png" alt="list-of-players" border="0">
 
