@@ -52,7 +52,7 @@ So we have a total of 5 routes
 
 * Add Player
 
-<img src="https://ibb.co/fGShzsK">
+<img src="https://i.ibb.co/TqTVxsn/add-player.png" alt="add-player" border="0">
 
 * List of players
 <img src="https://sydcodeur.com/sydcodeur-images/list-of-players.PNG">
