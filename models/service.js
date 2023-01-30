@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const playerSchema = mongoose.Schema(
+const serviceSchema = mongoose.Schema(
     {
         name: { type: String },
         age: { type: Number },
@@ -11,4 +11,4 @@ const playerSchema = mongoose.Schema(
     }
 );
 
-module.exports = mongoose.model('Player', playerSchema);
+module.exports = mongoose.model('Service', serviceSchema);

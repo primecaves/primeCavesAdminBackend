@@ -2,9 +2,10 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const bodyParser = require('body-parser');
-
-
-const playerRoutes = require('./routes/player');
+const dashboardRoutes = require('./routes/dashboard');
+const serviceRoutes = require('./routes/service');
+const menuRoutes = require('./routes/menu');
+const maintenanceRoutes = require('./routes/maintenance');
 
 const app = express();
 
@@ -18,19 +19,21 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/api/v1/', playerRoutes);
+app.use('/api/v1/', dashboardRoutes);
+app.use('/api/v1/', serviceRoutes);
+app.use('/api/v1/', menuRoutes);
+app.use('/api/v1/', maintenanceRoutes);
 
-
-mongoose.connect('mongodb://localhost:27017/player-db',
+mongoose.connect('mongodb://localhost:27017/service-db',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
     .then(() => {
-        console.log('You are connected to player-db!')
+        console.log('You are connected to service-db!')
         app.listen(3000);
     })
     .catch((error) => {
-        console.log('Connection to player-db failed', error)
+        console.log('Connection to service-db failed', error)
     });
 
