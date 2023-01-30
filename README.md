@@ -1,18 +1,3 @@
-# nodejs-crud-api
-Node.js, Express and MongodB: Create a Restfull API with images upload
-
-## What will you learn ?
-What will you learn by downloading my code?
-- Use of **express** to make API creation simple
-- Using **mongoose** to manage communication with Mongo DB
-- Image Upload with **multer**
-- Image deletion with the notions of paths and file system in node
-- Field validation using **express-validator**
-- Creation of reusable methods thanks to the concept of **modules**
-- Creation of a functional REST API with Node.js, Express and Mongo DB.
-
-Are you ready ? Let's go
-
 ## Step 1: Installing dependencies
 
 Clone the repository then run **npm install**
@@ -47,13 +32,3 @@ So we have a total of 5 routes
 * When you add a service their photo is placed in the /images folder (make sure to create this folder at the same level as the controllers folder if it doesn't exist).
 * I delete service image if this image was replaced during the update (or if the service was deleted)
 * In the utils/syd-functions.js folder you will find reusable functions in the controllers/service.js
-
-## Examples of API tests with postman (in pictures)
-
-* Add Service
-
-<img src="https://i.ibb.co/TqTVxsn/add-service.png" alt="add-service" border="0">
-
-* List of services
-<img src="https://i.ibb.co/RSgvjLt/list-of-services.png" alt="list-of-services" border="0">
-
